@@ -454,3 +454,23 @@ header{
         }
     }
 }
+.section8{
+    width: 1440px;
+    height: 9686px;
+    background: #FFF;
+  .our_blog{
+    width: 1170px;
+height: 701px;
+flex-shrink: 0;
+padding: 120px 135px;
+  .recent-blog_txt{
+    h1{
+        color: var(--Black, #232233);
+font-size: 31.25px;
+font-weight: 700;
+margin-left:429px;
+text-transform: uppercase;
+    }
+  }  
+  }
+}
