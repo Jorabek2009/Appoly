@@ -1,1 +1,308 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=PT+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Josefin Sans;
+}
+
+body {
+  width: 1440px;
+  border: 10 solid red;
+  background-color: black;
+  color: white;
+}
+
+header {
+  background-image: url(../img/Background\ Image.png);
+}
+header nav .top {
+  display: flex;
+}
+header nav .top img {
+  width: 18px;
+  height: 18px;
+}
+header nav .top .left {
+  display: flex;
+}
+header nav .top .left p {
+  width: 140px;
+  margin-top: 38px;
+  margin-left: 18px;
+}
+header nav .top .left .img1 {
+  margin-left: 135px;
+  margin-top: 38px;
+}
+header nav .top .left .img2 {
+  margin-left: 30px;
+  margin-top: 38px;
+}
+header nav .top .right {
+  margin-left: 627px;
+}
+header nav .top .right img {
+  margin-top: 38px;
+  margin-left: 18px;
+}
+header nav .botom {
+  display: flex;
+  margin-left: 135px;
+  margin-top: 10px;
+  width: 1170px;
+  height: 60px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 5px;
+}
+header nav .botom div {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 470px;
+  box-shadow: 2px 2px 9px 1px rgb(200, 197, 197);
+  width: 200px;
+  height: 90px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 30px 15px;
+}
+header nav .botom .home {
+  text-decoration: underline;
+  color: #5956E9;
+  margin-left: 53px;
+}
+header nav .botom .scre {
+  margin-left: 380px;
+}
+header nav .botom .dow {
+  background-color: #5956E9;
+  color: white;
+  width: 150px;
+  height: 50px;
+  padding: 18px 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+header nav .botom p {
+  margin-left: 38px;
+  margin-top: 22px;
+}
+header main {
+  display: flex;
+}
+header main .left {
+  width: 570px;
+  height: 432px;
+  background-color: white;
+  color: black;
+  padding: 40px 25px;
+  margin: 238px 135px;
+  z-index: 2;
+}
+header main .left h2 {
+  font-size: 49px;
+  color: #5956E9;
+  margin-bottom: 18px;
+}
+header main .left p {
+  margin-bottom: 53px;
+  width: 490px;
+  color: grey;
+  font-weight: 400;
+}
+header main .left img {
+  margin-top: 10px;
+}
+header main .right {
+  margin: 87px 134px;
+}
+header .res {
+  width: 570px;
+  height: 535px;
+  z-index: 1;
+  position: absolute;
+  margin-top: -720px;
+  margin-left: 160px;
+}
+
+.section1 {
+  background-color: white;
+  color: black;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.section1 .top {
+  text-align: center;
+}
+.section1 .top p {
+  width: 600px;
+  margin-left: 410px;
+}
+.section1 .bottom {
+  display: flex;
+  margin-left: 138px;
+  margin-top: 60px;
+}
+.section1 .bottom .right {
+  margin-left: 180px;
+}
+.section1 .bottom .right div {
+  box-shadow: 0 3px 10px 1px rgb(211, 203, 203);
+  width: 570px;
+  height: 160px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  border-radius: 5px;
+}
+.section1 .bottom .right div img {
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.section1 .bottom .right div main {
+  margin: 20px;
+}
+.section1 .bottom .right div h1 {
+  margin-bottom: 10px;
+}
+
+.section2 {
+  background-image: url(../img/back.png);
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.section2 .top {
+  text-align: center;
+}
+.section2 .top p {
+  width: 601px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+.section2 .top .p2 {
+  width: 300px;
+  margin-left: 570px;
+}
+.section2 .top img {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.section2 .bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.section2 .bottom .left {
+  text-align: right;
+  margin-top: 100px;
+}
+.section2 .bottom .left p {
+  width: 297px;
+}
+.section2 .bottom .left .img2 {
+  margin-top: 450px;
+}
+.section2 .bottom .left img {
+  margin-bottom: 20px;
+}
+.section2 .bottom .left h2 {
+  margin-bottom: 20px;
+}
+.section2 .bottom .right {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: -70px;
+}
+.section2 .bottom .right p {
+  width: 297px;
+}
+.section2 .bottom .right .img2 {
+  margin-top: 450px;
+}
+.section2 .bottom .right img {
+  margin-bottom: 20px;
+}
+.section2 .bottom .right h2 {
+  margin-bottom: 20px;
+}
+.section2 main {
+  text-align: center;
+}
+.section2 main h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section2 main p {
+  width: 300px;
+  margin-left: 570px;
+}
+
+.section3 {
+  padding: 135px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.section3 p {
+  width: 601px;
+  margin-left: 290px;
+  margin-top: 30px;
+}
+.section3 main {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.section3 main .img {
+  width: 90px;
+  height: 90px;
+  margin-top: 300px;
+}
+.section3 aside {
+  display: flex;
+  margin-top: 100px;
+}
+.section3 aside h1 {
+  font-size: 30px;
+}
+.section3 aside .left {
+  text-align: left;
+}
+.section3 aside .left p {
+  width: 570px;
+  margin: 30px 0;
+}
+.section3 aside .left article {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.section3 aside .left article div {
+  width: 170px;
+  height: 176px;
+  background-color: #5956E9;
+  border-radius: 5px;
+}
+.section3 aside .left article div img {
+  width: 60px;
+  height: 60px;
+  margin: 20px 50px;
+}
+.section3 aside .left article div h4 {
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+.section3 aside .right {
+  margin-left: 100px;
+}
+
+.section4 {
+  height: 477px;
+  background-image: url(../img/Rectangle\ 15.png);
+}/*# sourceMappingURL=style.css.map */
