@@ -696,7 +696,7 @@ h4 {
 .section8 .our_blog .blog_post .blog-img {
   width: 370px;
   height: 500px;
-  margin-left: 15px;
+  margin-left: 25px;
   flex-shrink: 0;
   border-radius: 10px;
   background: var(--White, #FFF);
@@ -737,4 +737,78 @@ h4 {
   text-transform: uppercase;
   margin-top: 28px;
   margin-left: 18px;
+}
+
+@media (max-width: 768px) {
+  .section8 {
+    width: 768px;
+    background: #FFF;
+  }
+  .section8 .our_blog {
+    width: 768px;
+    height: 8471px;
+    flex-shrink: 0;
+    padding: 120px 40px;
+  }
+  .section8 .our_blog .recent-blog_txt h1 {
+    color: var(--Black, #232233);
+    font-size: 31.25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .section8 .our_blog .recent-blog_txt p {
+    flex-shrink: 0;
+    color: var(--gray-paragraph, #6C6C72);
+    padding: 0 119px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .section8 .our_blog .blog_post {
+    display: flex;
+    padding: 50px 172px;
+  }
+  .section8 .our_blog .blog_post .blog-img {
+    width: 213px;
+    height: 633px;
+    flex-shrink: 0;
+    margin-left: 25px;
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  .section8 .our_blog .blog_post .blog-img img {
+    width: 214px;
+    height: 228px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  .section8 .our_blog .blog_post .blog-img h4 {
+    width: 178px;
+    color: var(--Black, #232233);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .section8 .our_blog .blog_post .blog-img p {
+    width: 178px;
+    height: 141px;
+    flex-shrink: 0;
+    color: var(--gray-paragraph, #6C6C72);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 18px;
+  }
+  .section8 .our_blog .blog_post .blog-img h3 {
+    color: #5851EA;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin-top: 38px;
+    margin-left: 18px;
+  }
 }/*# sourceMappingURL=style.css.map */
