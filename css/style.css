@@ -427,7 +427,7 @@ header .res {
   display: flex;
   margin-top: 60px;
 }
-.section6 .main .box h2 {
+.section6 .main .box1 h2 {
   color: var(--Black, #232233);
   font-family: Josefin Sans;
   font-size: 31.25px;
@@ -436,7 +436,7 @@ header .res {
   line-height: 47.25px; /* 151.2% */
   text-transform: uppercase;
 }
-.section6 .main .box h3 {
+.section6 .main .box1 h3 {
   color: var(--gray-paragraph, #6C6C72);
   font-family: Josefin Sans;
   font-size: 20px;
@@ -445,7 +445,7 @@ header .res {
   line-height: 30px; /* 150% */
   text-transform: uppercase;
 }
-.section6 .main .box p {
+.section6 .main .box1 p {
   width: 326px;
   height: 61px;
   flex-shrink: 0;
@@ -458,10 +458,10 @@ header .res {
   font-weight: 400;
   line-height: 24px; /* 150% */
 }
-.section6 .main .box .icons {
+.section6 .main .box1 .icons {
   display: flex;
 }
-.section6 .main .box .icons img, .section6 .main .box .icons div {
+.section6 .main .box1 .icons img, .section6 .main .box1 .icons div {
   margin-right: 31px;
 }
 
@@ -520,24 +520,6 @@ header .res {
     height: 70px;
     flex-shrink: 0;
   }
-}
-.section8 {
-  width: 1440px;
-  height: 9686px;
-  background: #FFF;
-}
-.section8 .our_blog {
-  width: 1170px;
-  height: 701px;
-  flex-shrink: 0;
-  padding: 120px 135px;
-}
-.section8 .our_blog .recent-blog_txt h1 {
-  color: var(--Black, #232233);
-  font-size: 31.25px;
-  font-weight: 700;
-  margin-left: 429px;
-  text-transform: uppercase;
 }
 .section8 {
   width: 1440px;
